@@ -1,4 +1,4 @@
-use crc::{Crc, Algorithm};
+use crc::{Algorithm, Crc};
 
 /// A utility struct for generating PromptPay payloads.
 ///
@@ -61,13 +61,13 @@ impl PromptPayUtils {
         // Define the custom CRC-16 algorithm parameters as a constant
         const CRC16_XMODEM: Algorithm<u16> = Algorithm {
             width: 16,
-            poly: 0x1021,      // Polynomial for CRC-16 XMODEM
-            init: 0xFFFF,      // Initial value
-            refin: false,      // No reflection of input bits
-            refout: false,     // No reflection of output bits
-            xorout: 0x0000,    // No XOR applied to the output
-            check: 0x906E,     // Check value for validation
-            residue: 0x0000,   // Residue for the algorithm
+            poly: 0x1021,    // Polynomial for CRC-16 XMODEM
+            init: 0xFFFF,    // Initial value
+            refin: false,    // No reflection of input bits
+            refout: false,   // No reflection of output bits
+            xorout: 0x0000,  // No XOR applied to the output
+            check: 0x906E,   // Check value for validation
+            residue: 0x0000, // Residue for the algorithm
         };
 
         // Create a custom CRC instance with the specified algorithm
