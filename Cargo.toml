@@ -17,10 +17,7 @@ resolver = "2"
 
 [lib]
 name = "prompt_pay"
-path = "/src/lib.rs"
+path = "src/lib.rs"  # Remove the leading slash
 
 [dependencies]
-crc="3.2.1"
-
-
-
+crc = "3.2.1"
