@@ -9,7 +9,7 @@ readme = "README.md"
 repository = "https://github.com/Siriphol-2000/prompt_pay_rust"
 license = "MIT OR Apache-2.0"
 keywords = ["PromptPay", "payment", "CRC"]
-categories = ["Finance"]
+categories = ["finance","accessibility"]
 
 
 [lib]
