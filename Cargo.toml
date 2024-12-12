@@ -12,12 +12,11 @@ license-file = "LICENSE"
 keywords = ["PromptPay", "payment", "CRC"]
 categories = ["Utilities", "Networking"]
 include = ["README.md", "LICENSE-MIT", "LICENSE-APACHE", "NOTICE"]
-publish = true
 resolver = "2"
 
 [lib]
 name = "prompt_pay"
-path = "src/lib.rs"  # Remove the leading slash
+path = "src/lib.rs"  
 
 [dependencies]
 crc = "3.2.1"
