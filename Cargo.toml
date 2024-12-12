@@ -1,0 +1,23 @@
+[package]
+name = "prompt_pay"
+version = "0.1.0"
+edition = "2021"
+authors = ["Siriphol N <siriphol.123@gmail.com>"]
+rust-version = "1.64"
+description = "A utility crate for generating PromptPay payloads."
+documentation = "https://docs.rs/promptpay-utils"
+readme = "README.md"
+homepage = "https://your-package-homepage.com"
+repository = "https://github.com/yourusername/promptpay-utils"
+license = "MIT OR Apache-2.0"   # Indicates dual-licensing with MIT and Apache-2.0
+license-file = ""               # Optional, as the license text will be in LICENSE-MIT and LICENSE-APACHE
+keywords = ["PromptPay", "payment", "CRC"]
+categories = ["Utilities", "Networking"]
+include = ["README.md", "LICENSE-MIT", "LICENSE-APACHE", "NOTICE"]
+publish = true
+resolver = "2"
+
+[dependencies]
+
+crc="3.2.1"
+
