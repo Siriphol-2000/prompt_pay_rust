@@ -15,10 +15,12 @@ include = ["README.md", "LICENSE-MIT", "LICENSE-APACHE", "NOTICE"]
 publish = true
 resolver = "2"
 
-[dependencies]
-crc="3.2.1"
-
 [lib]
 name = "prompt_pay"
 path = "src/lib.rs"
+
+[dependencies]
+crc="3.2.1"
+
+
 
