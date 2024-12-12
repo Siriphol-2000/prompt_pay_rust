@@ -10,13 +10,11 @@ repository = "https://github.com/Siriphol-2000/prompt_pay_rust"
 license = "MIT OR Apache-2.0"
 keywords = ["PromptPay", "payment", "CRC"]
 categories = ["Utilities", "Networking"]
-include = ["README.md", "LICENSE-MIT", "LICENSE-APACHE", "NOTICE"]
-publish = true
-resolver = "2"
+
 
 [lib]
 name = "prompt_pay"
-path = "src/lib.rs"  
+path = "src/lib.rs"
 
 [dependencies]
 crc = "3.2.1"
