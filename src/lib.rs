@@ -133,7 +133,7 @@ mod tests {
     #[test]
     fn test_sanitize_phone_number_valid() {
         let input = "+66-812345678".to_string();
-        let expected = "812345678".to_string();
+        let expected = "01130066812345678".to_string();
         let result = Utils::sanitize_phone_number(input).unwrap();
         assert_eq!(result, expected);
     }
@@ -149,7 +149,7 @@ mod tests {
     #[test]
     fn test_sanitize_national_id_valid() {
         let input = "1234567890123".to_string();
-        let expected = "1234567890123".to_string();
+        let expected = "02131234567890123".to_string();
         let result = Utils::sanitize_national_id(input).unwrap();
         assert_eq!(result, expected);
     }
